@@ -1,0 +1,11 @@
+h2,h3,p,ul,table{
+    color: rgb(189, 189, 189);
+}
+
+body{
+    background-color: black;
+}
+
+a{
+    color: rgb(255, 255, 255);
+}

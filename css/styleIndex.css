@@ -1,0 +1,24 @@
+#totalMedium{
+    background-color: black;
+}
+
+h1{
+    color: rgb(152, 162, 255);
+}
+
+nav{
+    background-color: rgb(218, 222, 255);
+}
+
+a{
+    color: rgb(65, 84, 255);
+}
+
+footer{
+    background-color: rgb(255, 255, 255);
+    padding-bottom: 50px;
+}
+
+p{
+    color: rgb(152, 162, 255);
+}
