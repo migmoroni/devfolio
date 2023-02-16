@@ -1,9 +1,11 @@
-#totalMedium{
-    background-color: black;
+body{
+    background-color: rgb(209, 224, 252);
+    margin: 0px;
+    
 }
 
-h1{
-    color: rgb(152, 162, 255);
+h1, p{
+    color: rgb(50, 132, 255);
 }
 
 nav{
@@ -12,13 +14,29 @@ nav{
 
 a{
     color: rgb(65, 84, 255);
+    text-decoration: none;
 }
 
 footer{
     background-color: rgb(255, 255, 255);
-    padding-bottom: 50px;
+    padding: 10px;
 }
 
-p{
-    color: rgb(152, 162, 255);
+.text-center{
+    text-align: center;
 }
+
+#totalMedium{
+    background-color: black;
+    padding: 5px;
+}
+
+#iframe-principal{
+    border: none;
+}
+
+
+
+
+
+
