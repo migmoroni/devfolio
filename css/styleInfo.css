@@ -19,5 +19,10 @@ a{
 }
 
 #img-gif-seta{
-    margin: 0px;
+    height: 500px;
+    background-image: url(../img/gif/seta_small.gif);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    
 }
