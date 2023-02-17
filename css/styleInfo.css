@@ -8,15 +8,11 @@ body{
 
 a{
     color: rgb(255, 255, 255);
-    text-decoration: none;
-    border: 1px solid;
     border-radius: 10px;
-    padding: 5px;
-    
 }
 
 .img-tech{
-    width: 5%;
+    width: 50px;
 }
 
 #font-big{
@@ -29,9 +25,5 @@ a{
     background-size:auto;
     background-repeat: no-repeat;
     background-position: center;
-    
-}
-
-#contact-info{
     
 }

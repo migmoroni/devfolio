@@ -14,14 +14,13 @@ nav{
 
 a{
     color: rgb(65, 84, 255);
-    text-decoration: none;
-    border: 1px solid;
-    padding: 5px;
+
 }
 
 footer{
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(209, 224, 252);
     padding: 10px;
+    margin-bottom: 30px;
 }
 
 #totalMedium{
@@ -32,7 +31,4 @@ footer{
 #iframe-principal{
     border: none;
 }
-
-
-
 
