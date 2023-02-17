@@ -11,6 +11,10 @@ a{
     border-radius: 10px;
 }
 
+a:hover{
+    background: rgb(109, 109, 109);
+}
+
 .img-tech{
     width: 50px;
 }

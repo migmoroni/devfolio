@@ -11,3 +11,12 @@ a{
 .text-center{
     text-align: center;
 }
+
+#img-gif-seta{
+    height: 400px;
+    background-image: url(../img/gif/seta.gif);
+    background-size:auto;
+    background-repeat: no-repeat;
+    background-position: center;
+    
+}

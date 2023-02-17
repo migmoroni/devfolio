@@ -17,6 +17,10 @@ a{
 
 }
 
+a:hover{
+    background: rgb(142, 154, 255);
+}
+
 footer{
     background-color: rgb(209, 224, 252);
     padding: 10px;
