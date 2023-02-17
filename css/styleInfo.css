@@ -8,6 +8,11 @@ body{
 
 a{
     color: rgb(255, 255, 255);
+    text-decoration: none;
+    border: 1px solid;
+    border-radius: 10px;
+    padding: 5px;
+    
 }
 
 .img-tech{
@@ -20,9 +25,13 @@ a{
 
 #img-gif-seta{
     height: 400px;
-    background-image: url(../img/gif/seta_small.gif);
+    background-image: url(../img/gif/seta.gif);
     background-size:auto;
     background-repeat: no-repeat;
     background-position: center;
+    
+}
+
+#contact-info{
     
 }
