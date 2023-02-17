@@ -19,9 +19,9 @@ a{
 }
 
 #img-gif-seta{
-    height: 500px;
+    height: 400px;
     background-image: url(../img/gif/seta_small.gif);
-    background-size: cover;
+    background-size:auto;
     background-repeat: no-repeat;
     background-position: center;
     
