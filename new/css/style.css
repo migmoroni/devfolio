@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: 'Roboto Slab', serif;
+}
+
+.navbar {
+    display: flex;
+    flex-flow: row wrap;
+    height: 80px;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+    background: rgb(231, 226, 255);
+    box-shadow: 0 3px 10px rgba(71, 38, 189, 0.7);
+    z-index: 999;
+}
+
+.name {
+    flex: 45%;
+    margin-left: 5%;
+    color: rgb(0, 0, 0);
+}
+
+.menu {
+    flex: 45%;
+    text-align: right;
+    margin-right: 5%;
+}
+
+.menu a {
+    text-decoration: none;
+    color: rgb(71, 38, 189);
+    padding: 1%;
+}
+
+.menu a:hover {
+    border-top: 4px solid rgb(71, 38, 189);
+    border-bottom: 4px solid rgb(71, 38, 189);
+}
+
+#header {
+    display: flex;
+    flex-flow: row wrap;
+    height: 600px;
+    justify-content: center;
+    align-items: center;
+    background: rgb(255, 230, 230);
+    padding-top: 80px;
+}
+
+.image-container {
+    overflow: hidden;
+    border-radius: 100%;
+    width: 300px;
+    height: 300px;
+}
+
+.image-container img {
+    max-width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+.img-header {
+    flex: 30%;
+    margin-left: 20%;
+}
+
+.txt-header {
+    flex: 30%;
+    margin-right: 20%;
+    text-align: right;
+}
+
+.carousel {
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #333;
+}
+
+.carousel p {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+#hab {
+    display: flex;
+    flex-flow: row wrap;
+    height: 520px;
+    justify-content: center;
+    align-items: center;
+    background: rgb(252, 255, 243);
+    padding-top: 120px;
+}
+
+#pro {
+    display: flex;
+    flex-flow: row wrap;
+    height: 520px;
+    justify-content: center;
+    align-items: center;
+    background: rgb(238, 238, 238);
+    padding-top: 120px;
+}
+
+footer {
+    height: 400px;
+    background-image: linear-gradient(180deg, #9785ff, #1d0c70, black);
+    text-align: center;
+    border-top: 5px solid rgb(71, 38, 189);
+}
