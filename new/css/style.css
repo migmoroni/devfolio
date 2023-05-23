@@ -12,7 +12,7 @@ body {
 .navbar {
     display: flex;
     flex-flow: row wrap;
-    height: 80px;
+    height: 10%;
     justify-content: center;
     align-items: center;
     position: fixed;
@@ -58,8 +58,8 @@ body {
 .image-container {
     overflow: hidden;
     border-radius: 100%;
-    width: 300px;
-    height: 300px;
+    width: 350px;
+    height: 350px;
 }
 
 .image-container img {
@@ -69,13 +69,13 @@ body {
 }
 
 .img-header {
-    flex: 30%;
-    margin-left: 20%;
+    flex: 20%;
+    margin-left: 30%;
 }
 
 .txt-header {
-    flex: 30%;
-    margin-right: 20%;
+    flex: 20%;
+    margin-right: 30%;
     text-align: right;
 }
 
@@ -94,25 +94,49 @@ body {
 #hab {
     display: flex;
     flex-flow: row wrap;
-    height: 520px;
+    height: 600px;
     justify-content: center;
     align-items: center;
     background: rgb(252, 255, 243);
-    padding-top: 120px;
+    padding-top: 60px;
+}
+
+.hab-pro {
+    flex: 35%;
+    margin-left: 10%;
+    margin-right: 5%;
+    text-align: right;
+}
+
+.hab-tec {
+    flex: 35%;
+    margin-right: 10%;
+    margin-left: 5%;
+    text-align: left;
 }
 
 #pro {
     display: flex;
     flex-flow: row wrap;
-    height: 520px;
+    height: 600px;
     justify-content: center;
     align-items: center;
     background: rgb(238, 238, 238);
+    padding-top: 60px;
+}
+
+#con {
+    display: flex;
+    flex-flow: row wrap;
+    height: 600px;
+    justify-content: center;
+    align-items: center;
+    background: rgb(226, 255, 232);
     padding-top: 120px;
 }
 
 footer {
-    height: 400px;
+    height: 300px;
     background-image: linear-gradient(180deg, #9785ff, #1d0c70, black);
     text-align: center;
     border-top: 5px solid rgb(71, 38, 189);
