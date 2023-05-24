@@ -92,48 +92,70 @@ body {
 }
 
 #hab {
-    display: flex;
-    flex-flow: row wrap;
+    display: grid;
     height: 600px;
-    justify-content: center;
-    align-items: center;
     background: rgb(252, 255, 243);
     padding-top: 60px;
+    /* border: 4px solid#1d0c70; */
 }
 
 .hab-pro {
-    flex: 35%;
-    margin-left: 10%;
+    grid-column: 1;
+    margin-left: 20%;
     margin-right: 5%;
     text-align: right;
+    /* border: 4px solid#1d0c70; */
 }
 
 .hab-tec {
-    flex: 35%;
-    margin-right: 10%;
+    grid-column: 2;
+    margin-right: 20%;
     margin-left: 5%;
     text-align: left;
+    /*border: 4px solid#1d0c70;*/
 }
 
 #pro {
-    display: flex;
-    flex-flow: row wrap;
+    display: grid;
     height: 600px;
-    justify-content: center;
-    align-items: center;
+    text-align: center;
     background: rgb(238, 238, 238);
-    padding-top: 60px;
+    padding-top: 80px;
+}
+
+.pro-1 {
+    grid-column: 1;
+    margin-left: 20%;
+    margin-right: 5%;
+    border: 4px solid#1d0c70;
+}
+
+.pro-2 {
+    grid-column: 2;
+    margin-right: 20%;
+    margin-left: 5%;
+    border: 4px solid#1d0c70;
 }
 
 #con {
-    display: flex;
-    flex-flow: row wrap;
+    display: grid;
     height: 600px;
     justify-content: center;
-    align-items: center;
     background: rgb(226, 255, 232);
-    padding-top: 120px;
+    padding-top: 80px;
 }
+
+.con-social {
+    display: grid;
+    grid-template-columns: 50px 50px;
+    grid-gap: 100px;
+}
+
+.con-email {
+    width: 50px;
+}
+
+
 
 footer {
     height: 300px;
