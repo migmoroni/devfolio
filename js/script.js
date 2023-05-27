@@ -15,16 +15,18 @@ function changeCarouselPhrase() {
 }
 
 // Night Mode
-var boo = false;
-var elemento = document.getElementById("botaoCE");
+let boo = false;
+let elemento = document.getElementById("botaoCE");
 
 
 function nightMode() {
-    element1 = document.getElementById("header");
-    element2 = document.getElementById("hab");
-    element3 = document.getElementById("carousel");
-    element4 = document.getElementById("pro");
-    element5 = document.getElementById("con");
+    const element1 = document.getElementById("header");
+    const element2 = document.getElementById("hab");
+    const element3 = document.getElementById("carousel");
+    const element4 = document.getElementById("pro");
+    const element5 = document.getElementById("con");
+
+    const elementButton = document.getElementById("botaoCE");
 
     //const classElement = ["header", "hab", "carousel", "pro", "con"];
     //const classElementAdd = ["header-night", "hab-night", "pro-night", "con-night"]
@@ -33,7 +35,9 @@ function nightMode() {
 
     if (boo) {
         elemento.textContent = "CLARO";
-        document.body.style.backgroundColor = "black";
+        elementButton.classList.remove("botaoCEC");
+        elementButton.classList.add("botaoCEE");
+        document.body.style.backgroundColor = "rgb(39, 37, 53)";
         element1.classList.add("header-night");
         element2.classList.add("hab-night");
         element3.classList.add("carousel-night");
@@ -41,6 +45,8 @@ function nightMode() {
         element5.classList.add("con-night");
     } else {
         elemento.textContent = "ESCURO";
+        elementButton.classList.remove("botaoCEE");
+        elementButton.classList.add("botaoCEC");
         document.body.style.backgroundColor = "white";
         element1.classList.remove("header-night");
         element2.classList.remove("hab-night");
@@ -49,6 +55,5 @@ function nightMode() {
         element5.classList.remove("con-night");
     }
 }
-
 
 setInterval(changeCarouselPhrase, 1500);

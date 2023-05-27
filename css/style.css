@@ -10,7 +10,7 @@ body {
 }
 
 .body {
-    background: black;
+    background: rgb(39, 37, 53);
 }
 
 #navbar {
@@ -27,13 +27,13 @@ body {
 }
 
 .name {
-    flex: 35%;
+    flex: 25%;
     margin-left: 5%;
     color: rgb(0, 0, 0);
 }
 
 .menu {
-    flex: 35%;
+    flex: 45%;
     text-align: right;
     margin-right: 1%;
 }
@@ -62,22 +62,36 @@ body {
     flex: 1%;
 }
 
-#botaoCE {
+.botaoCE {
     display: inline-block;
-    background: rgb(0, 0, 0);
     margin-left: 20px;
     padding: 10px;
-    color: rgb(255, 255, 255);
     text-transform: uppercase;
     border-radius: 50px;
     text-decoration: none;
     cursor: pointer;
 }
 
-#botaoCE:hover {
-    background: rgb(255, 255, 255);
-    color: rgb(0, 0, 0);
+.botaoCEE {
+    background: black;
+    color: white;
 }
+
+.botaoCEE:hover {
+    background: white;
+    color: black;
+}
+
+.botaoCEC {
+    background: white;
+    color: black;
+}
+
+.botaoCEC:hover {
+    background: black;
+    color: white;
+}
+
 
 .menu .botaoM:hover {
     border-top: 4px solid rgb(71, 38, 189);
@@ -90,12 +104,13 @@ body {
     height: 600px;
     justify-content: center;
     align-items: center;
+    text-align: center;
     background: rgb(255, 230, 230);
     padding-top: 80px;
 }
 
 .header-night {
-    background: black;
+    background: rgb(39, 37, 53);
     color: white;
 }
 
@@ -144,18 +159,18 @@ body {
     display: flex;
     flex-flow: row wrap;
     height: 600px;
-    background: rgb(252, 255, 243);
+    background: rgb(253, 255, 238);
     padding-top: 60px;
     /* border: 4px solid#1d0c70; */
 }
 
 .hab-night {
-    background: black;
+    background: rgb(39, 37, 53);
     color: white;
 }
 
 .hab-pro {
-    flex: 30%;
+    flex: 35%;
     margin-left: 10%;
     margin-right: 5%;
     text-align: right;
@@ -163,7 +178,7 @@ body {
 }
 
 .hab-tec {
-    flex: 30%;
+    flex: 35%;
     margin-right: 10%;
     margin-left: 5%;
     text-align: left;
@@ -179,7 +194,7 @@ body {
 }
 
 .pro-night {
-    background: black;
+    background: rgb(39, 37, 53);
     color: white;
 }
 
@@ -206,7 +221,7 @@ body {
 }
 
 .con-night {
-    background: black;
+    background: rgb(39, 37, 53);
     color: white;
 }
 
