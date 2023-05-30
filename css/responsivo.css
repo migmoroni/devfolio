@@ -12,21 +12,21 @@
     }
 }
 
-@media screen and (max-width:1400px) {
+@media screen and (max-width:1440px) {
 
     .img-header {
         flex: 30%;
-        margin-left: 20%;
+        margin-left: 15%;
     }
 
     .txt-header {
         flex: 30%;
-        margin-right: 20%;
+        margin-right: 15%;
         text-align: right;
     }
 }
 
-@media screen and (max-width:1200px) {
+@media screen and (max-width:1024px) {
 
     .img-header {
         flex: 40%;
@@ -65,30 +65,8 @@
     }
 }
 
-@media screen and (max-width:800px) {
-
-    .image-container {
-        overflow: hidden;
-        border-radius: 100%;
-        width: 300px;
-        height: 300px;
-    }
-
-    .img-header {
-        flex: 45%;
-        margin-left: 5%;
-        align-items: center;
-    }
-
-    .txt-header {
-        flex: 45%;
-        margin-right: 5%;
-        text-align: right;
-        align-items: center;
-    }
-}
-
-@media screen and (max-width:680px) {
+@media screen and (max-width:800px),
+screen and (orientation: portrait) {
 
     #header {
         display: flex;
@@ -112,4 +90,35 @@
         margin-right: 0%;
         text-align: center;
     }
+
+    .menu {
+        display: none;
+    }
+
+    .sanduiche-btn {
+        visibility: visible;
+        display: inline-block;
+    }
+
+    .show {
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        top: 70px;
+        right: 0;
+        background: rgb(231, 226, 255);
+        box-shadow: 0 3px 10px rgba(71, 38, 189, 0.7);
+        z-index: 999;
+        padding: 10px;
+    }
+
+    .sanduiche-menu a {
+        color: rgb(71, 38, 189);
+        font-size: 20px;
+        text-decoration: none;
+        margin-bottom: 30px;
+        border-left: 4px solid rgb(71, 38, 189);
+        padding: 10px;
+    }
+
 }

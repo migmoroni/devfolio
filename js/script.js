@@ -56,4 +56,21 @@ function nightMode() {
     }
 }
 
+function toggleMenu() {
+
+    boo = !boo;
+    let sanduicheMenu = document.querySelector('.sanduiche-menu');
+
+    if (boo) {
+        sanduicheMenu.classList.add('show');
+    } else {
+        sanduicheMenu.classList.remove('show');
+    }
+
+}
+// Ver como resolver com .toggle()
+
 setInterval(changeCarouselPhrase, 1500);
+
+const sistemaOperacional = navigator.userAgent;
+console.log("Sistema operacional: " + sistemaOperacional);
