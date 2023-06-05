@@ -68,6 +68,16 @@
 @media screen and (max-width:800px),
 screen and (orientation: portrait) {
 
+    #navbar {
+        height: 100px;
+    }
+
+    .name {
+        flex: 20%;
+        margin-left: 1%;
+        color: rgb(0, 0, 0);
+    }
+
     #header {
         display: flex;
         flex-flow: column;
@@ -119,6 +129,10 @@ screen and (orientation: portrait) {
         margin-bottom: 30px;
         border-left: 4px solid rgb(71, 38, 189);
         padding: 10px;
+    }
+
+    .hab {
+        height: 1200px;
     }
 
 }
