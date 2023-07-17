@@ -1,9 +1,9 @@
-// Carousel phrases
+// Frases em Corrousel
 let currentPhraseIndex = 0;
 
 function changeCarouselPhrase() {
     const phrasesL = ['//JavaScript', '#Ruby', '#Python', '//C#'];
-    const phrasesC = ['console.log("Bem vindo!")', 'puts "Bem vindo!"', 'print "Bem vindo!"', 'Console.WriteLine("Bem vindo!")'];
+    const phrasesC = ['console.log("Bem vindo!")', 'puts "Bem vindo!"', 'System.out.println("Bem vindo!")'];
     let carouselItem = document.getElementById("carousel-item");
     let carouselItem2 = document.getElementById("carousel-item2");
 
@@ -14,7 +14,7 @@ function changeCarouselPhrase() {
     currentPhraseIndex = (currentPhraseIndex + 1) % phrasesC.length;
 }
 
-// Night Mode
+// Modo Noturno
 let boo = false;
 let elemento = document.getElementById("botaoCE");
 
