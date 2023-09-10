@@ -2,8 +2,8 @@
 let currentPhraseIndex = 0;
 
 function changeCarouselPhrase() {
-    const phrasesL = ['//JavaScript', '#Ruby', '//Java'];
-    const phrasesC = ['console.log("Bem vindo!")', 'puts "Bem vindo!"', 'System.out.println("Bem vindo!")'];
+    const phrasesL = ['//JavaScript', '#Ruby'];
+    const phrasesC = ['console.log("Bem vindo!")', 'puts "Bem vindo!"'];
     let carouselItem = document.getElementById("carousel-item");
     let carouselItem2 = document.getElementById("carousel-item2");
 
